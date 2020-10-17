@@ -2,9 +2,11 @@
 
 /*30/08/2020 Hao Shen
  * This project is to calculate the heart rate and valve movement of mussel Mytilus galloprovoncialis.
- * Manual setting of RTC not working.
+ * Mega is used. A0-A7 are for IR; A8-A15 are for Hall.
+ * 1 IR and Hall share 1 power. 
+ * 1 IR has 2 GND, 1 Hall has 1 GND.
+ * Manual setting of RTC not working, very grateful if someone fix it.
  * I/O pins can be power or GND for IR. Time sharing is a must.
-
 */
 #include "arduinoFFT.h"
 #include <Wire.h>
