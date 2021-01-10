@@ -1,3 +1,5 @@
-# Mussel-monitor1.0
-This project is used to monitor the cardiac activities and valve movement of mussels with Arduino
-Will update the DOI of paper after published
+# Mussel-monitor1.1
+This project is to calculate the heart rate and valve movement of mussel Mytilus galloprovoncialis.
+
+Update from Mussel-Monitor1.0:
+Four IR sensors are working simultaneously each time, instead of one.
